@@ -8,5 +8,5 @@ Due to only having level 1 administrative boundaries for Belize I broke Nicaragu
 ![](nic_details.png)
 
 Here is the population and log of the population for each department in Belize.
-![](blz_pop.png)
-![](blz_logpop.png)
+![](blz_pop20.png)
+![](blz_logpop20.png)
