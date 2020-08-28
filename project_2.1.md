@@ -6,3 +6,7 @@ Here are the administrative boundaries for Belize and Nicaragua
 
 Due to only having level 1 administrative boundaries for Belize I broke Nicaragua down into the two most populus departments.
 ![](nic_details.png)
+
+Here is the population and log of the population for each department in Belize.
+![](blz_pop.png)
+![](blz_logpop.png)
