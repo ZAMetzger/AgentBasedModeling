@@ -14,5 +14,5 @@ Here are the histograms for both pop and log(pop):
 Here is the combined histogram and line graph for population and density:
 ![](logpop_hist_line.png)
 
-Here is the combined histogram and line graph for water and density:
+Here is the combined histogram and line graph for night time lights and density:
 ![](water_hist.png)
