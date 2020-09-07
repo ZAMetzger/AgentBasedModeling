@@ -14,4 +14,4 @@ Here is the combined histogram and line graph for population and density:
 ![](logpop_hist_line.png)
 
 Here is the combined histogram and line graph for water and density:
-![](water_hist_line.png)
+![](water_hist.png)
