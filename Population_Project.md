@@ -4,6 +4,7 @@ Here is a combined representation of Belize's population and density:
 ![](blz_pop.png)
 
 Here is a raster layer of the topography:
+
 ![](blz_rasterlayers.png)
 
 Here are the histograms for both pop and log(pop):
