@@ -24,6 +24,8 @@ Histograms for population and night time lights:
 
 ## Boaco, Nicaragua
 
+Boaco is a department in Nicaragua. It was formed in 1938 out of part of Chontales Department. It lies in central Nicaragua north of the Lago Colciboca.
+
 Here is a density image with the projected urban areas:
 ![](urbanareas.png)
 
