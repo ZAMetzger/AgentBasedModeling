@@ -17,14 +17,15 @@ Topography of Nicaragua:
 
 ![](nic_topo.png)
 
-##Boaco, Nicaragua
+## Boaco, Nicaragua
 
 Here is a density image with the projected urban areas:
 ![](urbanareas.png)
+
 Population of urban areas:
 ![](boaco_pop_plot.png)
 
-Roadways through Boaco, Nicaragua
+
 ![](boaco_road.png)
 
 Topography of Boaco:
