@@ -32,6 +32,7 @@ Population of urban areas:
 
 
 ![](boaco_road.png)
+ 
  The red lines are primary roads, green are secondary, and blue are tertiary. In this map we can see that the roads run through the highest density areas. You can really notice this by looking at the primary and tertiary roads that run along the bottom left side of Boaco.
  
 Topography of Boaco:
