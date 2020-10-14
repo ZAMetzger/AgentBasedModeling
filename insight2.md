@@ -12,4 +12,5 @@ Niamh Bermingham-McDonogh discusses the three common types of analysis for QS da
 In conclusion, QS data is a new and very accessible form of data collection that could provide very useful and important information, but it also creates a lot of challenges with storage and analysis. There is great potential for QS data and people interested in collecting and studying data on themselves. There needs to be a solution to data storage that allows users to analyze their data efficiently and effectively. 
 
 [Swan](https://www.liebertpub.com/doi/full/10.1089/big.2012.0002)
+
 [Bermingham-McDonogh](https://beta.vu.nl/nl/Images/werkstuk-berminghamMcDonogh_tcm235-701810.pdf)
