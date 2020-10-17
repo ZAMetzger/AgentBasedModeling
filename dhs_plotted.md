@@ -9,7 +9,7 @@ There were 11328 households interviewed. There are an estimated 1271873 househol
 ### Boaco
 Due to data size constraints, I was only able to plot the households based on the population for Boaco, Nicaragua.
 
-![](boaco_pnss.png)
+![](boaco_pns.png)
 
 There is an estimated 30886 people in Boaco. My model had an estimate of 30981 people with a calculated error of 0.003094314.
 
