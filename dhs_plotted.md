@@ -25,7 +25,7 @@ Here is the density plot for the sampled households:
 
 
 I then created a trained model for education by using age, gender, and household size. I did this by first creating a multinomial model. Then I predicted values for the trained dataset. The accuracy of the predicted values was 45.99%. Then I predicted the class of the test dataset. That predicting had a 45.51% accuracy. So, my trained dataset was not very accurate. 
-![](boaco_urban_areas_with_people.png)
+![](Boaco_urban_areas_with_people.png)
 
 ### Heat Maps
 #### Normal
