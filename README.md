@@ -11,3 +11,4 @@
 ## Data Science Insights:
 1. [Data science insight #1: Agent-based modelling used for coral reef reconstruction](https://zametzger.github.io/AgentBasedModeling/insight1)
 2. [Data science insight #2: The Quantified Self](https://zametzger.github.io/AgentBasedModeling/insight2)
+3. [Data science insight #3: ABM in Social Science](https://zametzger.github.io/AgentBasedModeling/insight3)
