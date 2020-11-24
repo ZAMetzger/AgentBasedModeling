@@ -55,7 +55,7 @@ I wanted to add another variable that would be used for further specification of
 
 ### Migration
 
-I was able to plot a migration plot.
+I was able to plot a migration plot. In the migration plot, the blue points are the migration points from the flow data frame. Their size is based off of the weight of migration. The red points are the center points from the shape file. This migration plot has been created based off of the center points from the shape file. 
 
 ![](migration_plot1.png)
 
