@@ -4,11 +4,11 @@
 
 ​	We started to understand gravity models by following Dr. Ds Idiots Guide to Spatial Interaction Modelling for Dummies. The guide took us through making a gravity model for London. After I plotted the spatial outline of London, I generated a distance matrix. You have to generate a distance matrix to convert the distances from decimal degrees to meters. I then created a flow estimate model using the census data from 2001. I created flow estimates that totaled to 93803. I then tested the fit of the model where I got and R^2 value of 0.5033. This equates to 50.33% of the variation is accounted for in the model. The root mean square error was 203.352. The RMSE is better the closer it is to 0. So, I went in to improve the model. The guide took me through the process of calibrating the parameters of the flow data. This is usually done using the goodness-of-fit statistics. I used the Poisson regression.
 
-![](poisson_plot)
+![](poisson_plot.png)
 
 You want a linear correlation when plotting the total and the distance. In order to have this  for the model, both sides of the equation need a log transformation. Then we get this plot:
 
-![](log_poisson_plot)
+![](log_poisson_plot.png)
 
 Then, by using the generalized linear models function, we can run a summary on the Poisson regression model. I noticed that all of the beta parameters are useful using their p-values. I wanted to make sure that the model was in fact more useful than what we had started with. I calculated both the R^2 and the RMSE values. The r^2 value was now 0.6726 and the RMSE value is 1892.615. There was an improvement on both of the statistical measures, so we can claim that the new model is more useful.
 
@@ -45,11 +45,11 @@ We want to investigate migration flows for many different reasons, including urb
 
 Here is what the first couple of rows actually looks like:
 
-![](od_matrix)
+![](od_matrix.png)
 
 I wanted to add another variable that would be used for further specification of a gravity model. So I added nighttime lights. But again the issue of the varying amounts of center points came into play. So I created two OD matrices. The one above has the 15 locations, 210 rows, the distance between each point, and the migration flow. The second OD matrix, the one below, has the names of the locations of the 18 center points, 306 rows, the distance between each point and the nighttime light count. Th OD matrix is used to model the migration patterns. The matrix contains the amount of people who travel between each point. This shows how heavily traveled certain paths are. The distance is also important. A longer distance will probably have more people in one sense because more people can live along that line. But it can also have less people because less people would want to travel that far of a distance. It would be too costly. Like Garcia et al. explained, people seek to maximize their befits while minimizing their costs. traveling too far would not minimize the cost.
 
-![](od_matrix2)
+![](od_matrix2.png)
 
 
 
@@ -57,7 +57,7 @@ I wanted to add another variable that would be used for further specification of
 
 I was able to plot a migration plot.
 
-![](migration_plot1)
+![](migration_plot1.png)
 
 I was also able to produce an animation along each of the paths from the center points. However, this animation only had one point traveling between each point. In order to make the animation more accurate, I could use the OD matrix. I could weight the amount of points using the flow. All the points also arrived at their destination at the same time. This too is not very accurate. I could better this by using the distance of the line to determine how long it took for each point to travel. The gravity model would further improve this because it is providing an estimate of the migration flow. 
 
