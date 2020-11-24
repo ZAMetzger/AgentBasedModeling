@@ -4,7 +4,7 @@
 
 ​	We started to understand gravity models by following Dr. Ds Idiots Guide to Spatial Interaction Modelling for Dummies. The guide took us through making a gravity model for London. After I plotted the spatial outline of London, I generated a distance matrix. You have to generate a distance matrix to convert the distances from decimal degrees to meters. I then created a flow estimate model using the census data from 2001. I created flow estimates that totaled to 93803. I then tested the fit of the model where I got and R^2 value of 0.5033. This equates to 50.33% of the variation is accounted for in the model. The root mean square error was 203.352. The RMSE is better the closer it is to 0. So, I went in to improve the model. The guide took me through the process of calibrating the parameters of the flow data. This is usually done using the goodness-of-fit statistics. I used the Poisson regression.
 
-![](poisson_plot.png)
+![](poinson_plot.png)
 
 You want a linear correlation when plotting the total and the distance. In order to have this  for the model, both sides of the equation need a log transformation. Then we get this plot:
 
